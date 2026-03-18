@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <meta name="description" content="JM Store – iPhones originales a los mejores precios en Perú. Equipos de exhibición y sellados con garantía." />
+  <meta name="keywords" content="iPhone Peru, comprar iPhone, iPhone exhibición, iPhone sellado, JM Store, smartphones Lima" />
+  <meta property="og:title" content="JM Store – Tu iPhone Ideal, Al Mejor Precio" />
+  <meta property="og:description" content="Equipos originales de exhibición y sellados. iPhones desde XR hasta 17 Pro Max con garantía." />
+  <meta property="og:image" content="assets/images/logo.png" />
+  <title>JM Store – Tu iPhone Ideal</title>
+  <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+  <link rel="shortcut icon" href="assets/images/favicon.ico" />
+  <link rel="apple-touch-icon" href="assets/images/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script type="module" src="https://unpkg.com/@splinetool/viewer@1.12.69/build/spline-viewer.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="header-inner">
+      <a href="#inicio" class="logo-link">
+        <img src="assets/images/logo.png" alt="JM Store" class="logo-img" />
+      </a>
+      <nav class="nav" id="nav">
+        <a href="#inicio" class="nav-link">Inicio</a>
+        <a href="#productos" class="nav-link">Productos</a>
+        <a href="#planes" class="nav-link">Planes</a>
+      </nav>
+      <div class="header-actions">
+        <button class="cart-btn" id="cartBtn" aria-label="Ver carrito">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/>
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <path d="M16 10a4 4 0 01-8 0"/>
+          </svg>
+          <span class="cart-label">Carrito</span>
+          <span class="cart-badge" id="cartBadge">0</span>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Menú móvil">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MOBILE NAV -->
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+  <nav class="mobile-nav" id="mobileNav">
+    <div class="mobile-nav-top">
+      <img src="assets/images/logo.png" alt="JM Store" class="mobile-nav-logo" />
+      <button class="mobile-nav-close" id="mobileNavClose">✕</button>
+    </div>
+    <a href="#inicio" class="mobile-nav-link">🏠 Inicio</a>
+    <a href="#productos" class="mobile-nav-link">📱 Productos</a>
+    <a href="#planes" class="mobile-nav-link">💳 Planes</a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-spline">
+      <spline-viewer url="https://prod.spline.design/v9iGGzs5Bvb6FScc/scene.splinecode" loading-anim-type="none"></spline-viewer>
+    </div>
+    <div class="hero-spline-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-badge reveal">
+        <span class="badge-dot"></span>
+        iPhone 17 Pro Max disponible
+      </div>
+      <h1 class="hero-title reveal-delay-1">
+        Tu iPhone ideal.<br/>
+        <span class="hero-title-accent">Al mejor precio.</span>
+      </h1>
+      <p class="hero-subtitle reveal-delay-2">
+        Equipos originales de exhibición y sellados.<br class="hide-mobile"/>
+        Desde iPhone XR hasta iPhone 17 Pro Max.
+      </p>
+      <div class="hero-actions reveal-delay-3">
+        <a href="#productos" class="btn btn-primary">
+          Ver catálogo
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#planes" class="btn btn-outline">Ver planes</a>
+      </div>
+      <div class="hero-trust reveal-delay-3">
+        <div class="trust-pill">✓ Batería 100%</div>
+        <div class="trust-pill">✓ Accesorios incluidos</div>
+        <div class="trust-pill">✓ Entrega express</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats-section">
+    <div class="stats-grid">
+      <div class="stat-item reveal">
+        <div class="stat-icon">📱</div>
+        <div class="stat-row">
+          <span class="stat-num" data-target="20">0</span><span class="stat-suffix">+</span>
+        </div>
+        <div class="stat-label">Modelos disponibles</div>
+      </div>
+      <div class="stat-sep"></div>
+      <div class="stat-item reveal">
+        <div class="stat-icon">✅</div>
+        <div class="stat-row">
+          <span class="stat-num" data-target="100">0</span><span class="stat-suffix">%</span>
+        </div>
+        <div class="stat-label">Equipos originales</div>
+      </div>
+      <div class="stat-sep"></div>
+      <div class="stat-item reveal">
+        <div class="stat-icon">🚚</div>
+        <div class="stat-row">
+          <span class="stat-num" data-target="24">0</span><span class="stat-suffix">h</span>
+        </div>
+        <div class="stat-label">Entrega en Lima</div>
+      </div>
+      <div class="stat-sep"></div>
+      <div class="stat-item reveal">
+        <div class="stat-icon">⭐</div>
+        <div class="stat-row">
+          <span class="stat-num" data-target="500">0</span><span class="stat-suffix">+</span>
+        </div>
+        <div class="stat-label">Clientes satisfechos</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section class="products-section section" id="productos">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-eyebrow">Catálogo completo</div>
+        <h2 class="section-title">Encuentra tu iPhone</h2>
+        <p class="section-sub">Todos los modelos en versión <strong>exhibición</strong> y <strong>sellados</strong>. Batería 100%, accesorios incluidos.</p>
+      </div>
+      <div class="filter-bar reveal">
+        <button class="filter-btn active" data-filter="all">Todos</button>
+        <button class="filter-btn" data-filter="serie-xr-11">XR – 11</button>
+        <button class="filter-btn" data-filter="serie-12">iPhone 12</button>
+        <button class="filter-btn" data-filter="serie-13">iPhone 13</button>
+        <button class="filter-btn" data-filter="serie-14">iPhone 14</button>
+        <button class="filter-btn" data-filter="serie-15">iPhone 15</button>
+        <button class="filter-btn" data-filter="serie-16-17">16 – 17</button>
+      </div>
+      <div class="products-grid" id="productsGrid"></div>
+    </div>
+  </section>
+
+  <!-- WHY -->
+  <section class="why-section">
+    <div class="why-inner">
+      <div class="why-text reveal">
+        <div class="section-eyebrow">¿Por qué elegirnos?</div>
+        <h2 class="section-title">Calidad y confianza<br/>en cada equipo.</h2>
+        <p class="why-desc">En JM Store cada iPhone es revisado, verificado y entregado con accesorios completos. No vendemos réplicas ni equipos con iCloud bloqueado.</p>
+        <ul class="why-list">
+          <li><span class="why-check">✓</span> Batería al 100% garantizada</li>
+          <li><span class="why-check">✓</span> Accesorios originales incluidos</li>
+          <li><span class="why-check">✓</span> Sin bloqueo de iCloud ni reportes</li>
+          <li><span class="why-check">✓</span> Equipos de exhibición = como nuevos</li>
+          <li><span class="why-check">✓</span> Atención personalizada</li>
+        </ul>
+      </div>
+      <div class="why-cards reveal-right">
+        <div class="why-card why-card--blue">
+          <div class="why-card-icon">🔋</div>
+          <h4>Batería 100%</h4>
+          <p>Todos nuestros equipos llegan con batería verificada antes de la entrega.</p>
+        </div>
+        <div class="why-card why-card--red">
+          <div class="why-card-icon">🎁</div>
+          <h4>Accesorios incluidos</h4>
+          <p>Cubo + Cable + Case clear + Protector de pantalla sin costo adicional.</p>
+        </div>
+        <div class="why-card why-card--dark">
+          <div class="why-card-icon">🛡️</div>
+          <h4>Garantía real</h4>
+          <p>Respaldo post-venta por si tienes algún inconveniente con tu equipo.</p>
+        </div>
+        <div class="why-card why-card--blue">
+          <div class="why-card-icon">⚡</div>
+          <h4>Entrega express</h4>
+          <p>Despacho en 24h en Lima. Envíos a provincias coordinados al instante.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLANES -->
+  <section class="plans-section section" id="planes">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-eyebrow">Financiamiento</div>
+        <h2 class="section-title">Planes de pago</h2>
+        <p class="section-sub">¿No tienes el monto completo? Tenemos opciones para ti.</p>
+      </div>
+      <div class="plans-grid">
+        <div class="plan-card reveal">
+          <div class="plan-header">
+            <div class="plan-icon">💰</div>
+            <h3 class="plan-name">Pago al contado</h3>
+            <div class="plan-price-tag">Mejor precio</div>
+          </div>
+          <p class="plan-desc">Paga el total y obtén el precio más bajo disponible en exhibición o sellado.</p>
+          <ul class="plan-features">
+            <li>Precio desde catálogo</li>
+            <li>Entrega inmediata</li>
+            <li>Todos los modelos</li>
+            <li>Accesorios incluidos</li>
+          </ul>
+          <button class="btn-plan" data-plan-name="Pago al contado" data-plan-price="Precio de catálogo">Consultar ahora</button>
+        </div>
+        <div class="plan-card plan-card--featured reveal-delay-1">
+          <div class="plan-popular">MÁS SOLICITADO</div>
+          <div class="plan-header">
+            <div class="plan-icon">📅</div>
+            <h3 class="plan-name">Cuotas semanales</h3>
+            <div class="plan-price-tag">Flexible</div>
+          </div>
+          <p class="plan-desc">Paga en cuotas semanales cómodas y llévate tu iPhone hoy con una inicial.</p>
+          <ul class="plan-features">
+            <li>Inicial desde S/ 200</li>
+            <li>Cuotas según tu modelo</li>
+            <li>Entrega al primer pago</li>
+            <li>Seguimiento personalizado</li>
+            <li>Sin intereses abusivos</li>
+          </ul>
+          <button class="btn-plan btn-plan--featured" data-plan-name="Cuotas semanales" data-plan-price="Inicial desde S/ 200">Suscribirme</button>
+        </div>
+        <div class="plan-card reveal-delay-2">
+          <div class="plan-header">
+            <div class="plan-icon">🏆</div>
+            <h3 class="plan-name">Plan referido</h3>
+            <div class="plan-price-tag">Gana dinero</div>
+          </div>
+          <p class="plan-desc">¿Conoces a alguien que quiera un iPhone? Refiere y gana comisión en cada venta.</p>
+          <ul class="plan-features">
+            <li>Comisión por referido</li>
+            <li>Sin inversión inicial</li>
+            <li>Pagos inmediatos</li>
+            <li>Soporte de ventas incluido</li>
+          </ul>
+          <button class="btn-plan" data-plan-name="Plan referido" data-plan-price="Comisión por venta">Unirme ahora</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-eyebrow">Reseñas reales</div>
+        <h2 class="section-title">Lo que dicen nuestros clientes</h2>
+      </div>
+      <div class="testimonials-wrapper">
+        <div class="testimonials-track" id="testimonialsTrack">
+          <div class="testimonial-card">
+            <div class="t-stars">★★★★★</div>
+            <p class="t-text">"Compré mi iPhone 15 Pro en JM Store y llegó como nuevo, con todos los accesorios. El proceso fue súper rápido."</p>
+            <div class="t-author">
+              <div class="t-avatar">MP</div>
+              <div><strong>María P.</strong><span>Lima · iPhone 15 Pro</span></div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="t-stars">★★★★★</div>
+            <p class="t-text">"La batería al 100% es real. Llevo 3 meses con mi iPhone 14 Pro Max y funciona perfecto. Recomiendo JM Store."</p>
+            <div class="t-author">
+              <div class="t-avatar">CR</div>
+              <div><strong>Carlos R.</strong><span>Miraflores · iPhone 14 Pro Max</span></div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="t-stars">★★★★★</div>
+            <p class="t-text">"Me ayudaron con el plan de cuotas y me entregaron mi iPhone 13 el mismo día. Excelente atención."</p>
+            <div class="t-author">
+              <div class="t-avatar">AV</div>
+              <div><strong>Andrea V.</strong><span>San Isidro · iPhone 13</span></div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="t-stars">★★★★★</div>
+            <p class="t-text">"Increíble precio para el iPhone 16. El equipo llegó sellado, original, con todo incluido. Sin duda volveré."</p>
+            <div class="t-author">
+              <div class="t-avatar">JL</div>
+              <div><strong>Jorge L.</strong><span>Surco · iPhone 16</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="t-dots" id="tDots"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="assets/images/logo.png" alt="JM Store" class="footer-logo" />
+        <p>Tu tienda de iPhones originales en Perú. Equipos de exhibición y sellados con garantía y accesorios incluidos.</p>
+        <div class="footer-social">
+          <a href="https://instagram.com/Jm_store.18" target="_blank" aria-label="Instagram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="https://facebook.com/Jmstoreoficial_peru" target="_blank" aria-label="Facebook">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          </a>
+          <a href="https://tiktok.com/@JMStore" target="_blank" aria-label="TikTok">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.31 6.31 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.18 8.18 0 004.78 1.52V6.76a4.85 4.85 0 01-1.02-.07z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-links-grid">
+        <div class="footer-col">
+          <h5>Productos</h5>
+          <a href="#productos">iPhone XR – 11</a>
+          <a href="#productos">iPhone 12 Series</a>
+          <a href="#productos">iPhone 13 Series</a>
+          <a href="#productos">iPhone 14 Series</a>
+          <a href="#productos">iPhone 15 Series</a>
+          <a href="#productos">iPhone 16 – 17</a>
+        </div>
+        <div class="footer-col">
+          <h5>Redes sociales</h5>
+          <a href="https://instagram.com/Jm_store.18" target="_blank">@Jm_store.18</a>
+          <a href="https://facebook.com/Jmstoreoficial_peru" target="_blank">Jmstoreoficial_peru</a>
+          <a href="https://tiktok.com/@JMStore" target="_blank">JM Store</a>
+        </div>
+        <div class="footer-col">
+          <h5>Información</h5>
+          <a href="#planes">Planes de pago</a>
+          <a href="#productos">Catálogo</a>
+          <a href="#inicio">Inicio</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 JM Store. Todos los derechos reservados. · Lima, Perú</p>
+      <p class="footer-dev">Desarrollado por <strong>Igna Devv</strong> · <a href="tel:+51920426213">920 426 213</a></p>
+    </div>
+  </footer>
+
+  <!-- BACK TO TOP -->
+  <button class="back-top" id="backTop" aria-label="Volver arriba">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+
+  <!-- CART DRAWER -->
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+  <aside class="cart-drawer" id="cartDrawer">
+    <div class="drawer-header">
+      <h3>Tu carrito</h3>
+      <button class="drawer-close" id="drawerClose">✕</button>
+    </div>
+    <div class="cart-items-list" id="cartItemsList">
+      <div class="cart-empty" id="cartEmpty">
+        <div class="cart-empty-icon">🛒</div>
+        <p>Tu carrito está vacío</p>
+        <a href="#productos" class="btn btn-primary" style="margin-top:8px">Ver productos</a>
+      </div>
+    </div>
+    <div class="cart-footer" id="cartFooter" style="display:none">
+      <div class="cart-total-row">
+        <span>Total estimado</span>
+        <strong id="cartTotalAmt">S/ 0</strong>
+      </div>
+      <p class="cart-note">El precio final se coordina directamente con la tienda.</p>
+      <button class="btn-checkout" id="checkoutBtn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Comprar por WhatsApp
+      </button>
+    </div>
+  </aside>
+
+  <!-- PRODUCT MODAL -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="product-modal" id="productModal">
+      <button class="modal-close" id="modalClose">✕</button>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <!-- PLAN MODAL -->
+  <div class="modal-overlay" id="planModalOverlay">
+    <div class="plan-modal">
+      <button class="modal-close" id="planModalClose">✕</button>
+      <div class="plan-modal-content">
+        <div class="section-eyebrow">Formulario de suscripción</div>
+        <h3 id="planModalTitle">Plan seleccionado</h3>
+        <p class="plan-modal-subtitle" id="planModalSub"></p>
+        <form id="planForm" novalidate>
+          <div class="form-group">
+            <label for="pName">Nombre completo *</label>
+            <input type="text" id="pName" placeholder="Tu nombre completo" required />
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="pDni">DNI *</label>
+              <input type="text" id="pDni" placeholder="12345678" maxlength="8" required />
+            </div>
+            <div class="form-group">
+              <label for="pPhone">Teléfono *</label>
+              <input type="tel" id="pPhone" placeholder="999 999 999" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="pModel">Modelo de interés</label>
+            <select id="pModel">
+              <option value="">Selecciona un modelo</option>
+              <option>iPhone 13</option><option>iPhone 14</option>
+              <option>iPhone 14 Pro</option><option>iPhone 15</option>
+              <option>iPhone 15 Pro</option><option>iPhone 16</option>
+              <option>iPhone 16 Pro</option><option>iPhone 17</option>
+              <option>iPhone 17 Pro Max</option><option>Otro</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>¿Tipo de equipo?</label>
+            <div class="radio-group">
+              <label class="radio-opt"><input type="radio" name="tipo" value="exhibicion" checked /> Exhibición (mejor precio)</label>
+              <label class="radio-opt"><input type="radio" name="tipo" value="sellado" /> Sellado (caja original)</label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Enviar solicitud</button>
+        </form>
+        <div class="form-success" id="planSuccess">
+          <span>✓</span> ¡Solicitud recibida! Te contactamos en menos de 5 minutos.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
